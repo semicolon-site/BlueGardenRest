@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>Oplo RESTAURANT</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="font/flaticon.css"> 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="style.css"> 
+<link href="https://fonts.googleapis.com/css?family=Cairo&display=swap" rel="stylesheet"></link>
+<link href="https://fonts.googleapis.com/css?family=El Messiri&display=swap" rel="stylesheet"></link>
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
+
+<script type="text/javascript" src="java.js"></script> 
+
+
+<body dir="rtl">
+<div class="mobile-container ">
+
+     <picture>
+
+  <img src="images/logo.jpeg" alt="" >
+</picture>
+
+<div class="singleinfos">
+  <div class="row container-fluid ">
+    <div class="singleinfostabs ">
+<ul class="nav nav-pills red mb-3 mobile-container example navv" id="pills-tab" role="tablist">
+
+ <li class="nav-item">
+    <a class="nav-link active" id="pills-contact-tab" data-toggle="pill" href="#pills-soup" role="tab" aria-controls="pills-contact" aria-selected="false">الشوربات<embed src="images/soup.svg" alt="" width="25" height="13"></a> </li>
+
+ <li class="nav-item">
+    <a class="nav-link start" id="pills-contact-tab" data-toggle="pill" href="#pills-side" role="tab" aria-controls="pills-contact" aria-selected="false">المقبلات الباردة <embed src="images/appetizer-4.svg" alt="" width="25" height="13"> </a> </li>
+
+
+ <li class="nav-item">
+    <a class="nav-link start" id="pills-contact-tab" data-toggle="pill" href="#pills-sidehot" role="tab" aria-controls="pills-contact" aria-selected="false">المقبلات الساخنة <i class="flaticon-food-1"></i>  </a> </li>
+
+ <li class="nav-item">
+    <a class="nav-link start" id="pills-contact-tab" data-toggle="pill" href="#pills-salat" role="tab" aria-controls="pills-contact" aria-selected="false">السلطات<embed src="images/salad.svg" alt="" width="25" height="13"></a> </li>
+
+  <li class="nav-item ">
+    <a class=" nav-link " id="pills-home-tab" data-toggle="pill" href="#pills-fat" role="tab" aria-controls="pills-home" aria-selected="true">المعجنات <embed src="images/fat.svg" alt="" width="25" height="13"> </a> </li>
+   
+     <li class="nav-item ">
+    <a class=" nav-link " id="pills-home-tab" data-toggle="pill" href="#pills-sham" role="tab" aria-controls="pills-home" aria-selected="true">الاطباق الشامية<embed src="images/sham.svg" alt="" width="25" height="13"> </a> </li>
+
+
+  <li class="nav-item">
+    <a class="nav-link start" id="pills-contact-tab" data-toggle="pill" href="#pills-mash" role="tab" aria-controls="pills-contact" aria-selected="false">المشاوي<embed src="images/mash.svg" alt="" width="25" height="13"></a></li>
+
+
+  <li class="nav-item">
+    <a class="nav-link start" id="pills-contact-tab" data-toggle="pill" href="#pills-blue" role="tab" aria-controls="pills-contact" aria-selected="false">أطباق بلو جاردن الخاصة <i class="flaticon-food-1"></i></a></li>
+
+
+  <li class="nav-item">
+    <a class="nav-link start" id="pills-contact-tab" data-toggle="pill" href="#pills-sea" role="tab" aria-controls="pills-contact" aria-selected="false">ثمار البحر<embed src="images/sea.svg" alt="" width="25" height="13"></a></li>
+
+
+    <li class="nav-item">
+    <a class="nav-link start" id="pills-contact-tab" data-toggle="pill" href="#pills-mor" role="tab" aria-controls="pills-contact" aria-selected="false">الاطباق الغربية<embed src="images/pasta.svg" alt="" width="25" height="13"> </a></li>
+
+
+ <li class="nav-item">
+    <a class="nav-link start" id="pills-contact-tab" data-toggle="pill" href="#pills-swt" role="tab" aria-controls="pills-contact" aria-selected="false">الحلويات<embed src="images/swt1.svg" alt="" width="25" height="13"> </a></li>
+
+
+  <li class="nav-item">
+    <a class="nav-link start" id="pills-contact-tab" data-toggle="pill" href="#pills-IceCoffee" role="tab" aria-controls="pills-contact" aria-selected="false">المشروبات الباردة<i class="flaticon-cola"></i></a></li>
+
+
+  <li class="nav-item">
+    <a class="nav-link start" id="pills-contact-tab" data-toggle="pill" href="#pills-hotCoffee" role="tab" aria-controls="pills-contact" aria-selected="false">المشروبات الساخنة<embed src="images/cof.svg" alt="" width="25" height="13"></a></li>
+
+
+ <li class="nav-item">
+    <a class="nav-link start" id="pills-contact-tab" data-toggle="pill" href="#pills-tea" role="tab" aria-controls="pills-contact" aria-selected="false">ركن الشاي <embed src="images/tea.svg" alt="" width="25" height="13"> </a> </li>
+
+
+</ul>
+
+</div></div></div>
+<br>
+
+<div class="tab-content" id="pills-tabContent">
+
+  <div class="tab-pane fade show active" id="pills-soup" role="tabpanel" aria-labelledby="pills-home-tab">
+
+<div class="container" >  
+     
+    <div class="card " id="sp1" onclick="gofor(this.id)">
+
+          <div class="row no-gutters ">
+            <div class="col-3  scal3 ">
+                             <picture>
+  <source srcset="images/soup/ads.webp" type="image/webp" loading="lazy">
+  <source srcset="images/soup/ads.jp2" type="image/jp2" loading="lazy"> 
+  <img src="images/soup/ads.jpg" alt="" class="img-fluid lazy" alt="" loading="lazy" >
+</picture>
+       
+            </div>
+
+            <div class="col">
+                <div class="card-block px-3">
+                    <h5 class="card-title">شوربة العدس | Lentil Soup</h5>
+           
+                  <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie "></i>146</p> <p class ="right" >SR</p>
+                     <p class="alignright">39.00</p>
+   </div> </div> </div></div>  </div>
+
+    <br>  
+     
+  <div class="card" onclick="gofor(this.id)" id="sp2">
+
+        <div class="row no-gutters">
+            <div class="col-3 scal3">
+                          <picture >
+  <source srcset="images/soup/fat.webp" type="image/webp" loading="lazy">
+  <source srcset="images/soup/fat.jp2" type="image/jp2" loading="lazy"> 
+  <img src="images/soup/fat.jpg" alt="" class="img-fluid lazy" alt="" loading="lazy" >
+</picture>
+            </div>
+            <div class="col">
+                <div class="card-block px-3">
+                    <h5 class="card-title">شوربة الحريرة المغربية | Al-Hariera Moroccan Soup</h5>
+
+                   <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie"></i>109</p><p class ="right" >SR</p>
+                     <p class="alignright">39.00</p>
+                         </div> </div> </div></div>  </div>
+
+
+
+  <br>
+
+    <div class="card "  id="sp3" onclick="gofor(this.id)">
+
+        <div class="row no-gutters">
+           <div class="col-3  scal3 ">
+               <picture>
+    <source srcset="images/soup/sea.webp" type="image/webp" loading="lazy">
+  <source srcset="images/soup/sea.jp2" type="image/jp2" loading="lazy"> 
+  <img src="images/soup/sea.jpg" alt="" class="img-fluid lazy" alt="" loading="lazy" >              
+</picture>
+          
+            </div>
+
+            <div class="col">
+                <div class="card-block px-3">
+                   <h5 class="card-title">شوربة ثمار البحر | Seafood Soup</h5>
+                    
+
+                    <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie"></i>479</p><p class ="right" >SR</p>
+                     <p class="alignright">52.00</p>
+   </div> </div> </div></div>  </div>
+
+   <br>
+
+<div class="card " id="sp4" onclick="gofor(this.id)">
+        <div class="row no-gutters ">
+
+            <div class="col-3 scal2 ">
+                       <picture>
+    <source srcset="images/soup/ch.webp" type="image/webp" loading="lazy">
+  <source srcset="images/soup/ch.jp2" type="image/jp2" loading="lazy"> 
+  <img src="images/soup/ch.jpg" alt="" class="img-fluid lazy" alt="" loading="lazy" > 
+</picture>
+          
+            </div>
+
+            <div class="col ">
+                <div class="card-block px-3 ">
+                    <h5 class="card-title">شوربة كريمة الدجاج | Chicken cream soup</h5>
+           
+                  <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie"></i>345</p><p class ="right" >SR</p>
+                     <p class="alignright">41.00</p>
+   </div> </div> </div></div>  </div>
+
+    <br>
+
+ <div class="card " id="sp5" onclick="gofor(this.id)">
+
+        <div class="row no-gutters ">
+
+            <div class="col-3  scal3">
+               <picture>
+    <source srcset="images/soup/fat.webp" type="image/webp" loading="lazy">
+  <source srcset="images/soup/fat.jp2" type="image/jp2" loading="lazy"> 
+  <img src="images/soup/fat.jpg" alt="" class="img-fluid lazy" alt="" loading="lazy" > 
+</picture>
+
+            </div>
+
+            <div class="col">
+                <div class="card-block px-3">
+                    <h5 class="card-title"> شوربة الفطر | Mushroom soup </h5>
+           
+                  <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie"></i>0</p><p class ="right" >SR</p>
+                     <p class="alignright">0.00</p>
+   </div> </div> </div></div>  </div>
+
+
+</br>
+</div>
+</div>
+
+
+
+  <div class="tab-pane fade" id="pills-side" role="tabpanel" aria-labelledby="pills-profile-tab">
+<div class="container">
+
+ <div class="card " id="cl1" onclick="gofor(this.id)">
+
+          <div class="row no-gutters ">
+            <div class="col-3  scal3 ">
+                             <picture>
+       <source srcset="images/side/hms.webp" type="image/webp" loading="lazy">
+  <source srcset="images/side/hms.jp2" type="image/jp2" loading="lazy">                            
+  <img src="images/side/hms.jpg" alt="" class="img-fluid lazy" alt="" loading="lazy" >
+</picture>
+       
+            </div>
+
+            <div class="col">
+                <div class="card-block px-3">
+                    <h5 class="card-title">حمص | Hummus</h5>
+           
+                  <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie "></i>258</p> <p class ="right" >SR</p>
+                     <p class="alignright">38.00</p>
+   </div> </div> </div></div>  </div>
+
+    <br>  
+       
+ <div class="card " id="cl2" onclick="gofor(this.id)">
+
+          <div class="row no-gutters ">
+            <div class="col-3  scal3 ">
+                             <picture>
+       <source srcset="images/side/mtb.webp" type="image/webp" loading="lazy">
+  <source srcset="images/side/mtb.jp2" type="image/jp2" loading="lazy">                            
+  <img src="images/side/mtb.jpg" alt="" class="img-fluid lazy" alt="" loading="lazy" >
+</picture>
+       
+            </div>
+
+            <div class="col">
+                <div class="card-block px-3">
+                    <h5 class="card-title">متبل | Moutabbal</h5>
+           
+                  <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie "></i>90</p> <p class ="right" >SR</p>
+                     <p class="alignright">38.00</p>
+   </div> </div> </div></div>  </div>
+
+    <br>  
+
+
+
+ <div class="card " id="cl3" onclick="gofor(this.id)">
+
+          <div class="row no-gutters ">
+            <div class="col-3  scal3 ">
+                             <picture>
+       <source srcset="images/side/baba.webp" type="image/webp" loading="lazy">
+  <source srcset="images/side/baba.jp2" type="image/jp2" loading="lazy">                            
+  <img src="images/side/baba.jpg" alt="" class="img-fluid lazy" alt="" loading="lazy" >
+</picture>
+       
+            </div>
+
+            <div class="col">
+                <div class="card-block px-3">
+                    <h5 class="card-title">بابا غنوج | Baba Ghanouj</h5>
+           
+                  <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie "></i>140</p> <p class ="right" >SR</p>
+                     <p class="alignright">38.00</p>
+   </div> </div> </div></div>  </div>
+
+    <br>  
+
+ <div class="card " id="cl4" onclick="gofor(this.id)">
+
+          <div class="row no-gutters ">
+            <div class="col-3  scal3 ">
+                             <picture>
+       <source srcset="images/side/mhm.webp" type="image/webp" loading="lazy">
+  <source srcset="images/side/mhm.jp2" type="image/jp2" loading="lazy">                            
+  <img src="images/side/mhm.jpg" alt="" class="img-fluid lazy" alt="" loading="lazy" >
+</picture>
+       
+            </div>
+
+            <div class="col">
+                <div class="card-block px-3">
+                    <h5 class="card-title">محمرة | Mohamara</h5>
+           
+                  <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie "></i>847</p> <p class ="right" >SR</p>
+                     <p class="alignright">39.00</p>
+   </div> </div> </div></div>  </div>
+
+    <br>  
+
+</div> 
+
+</div>
+
+
+<div class="tab-pane fade" id="pills-sidehot" role="tabpanel" aria-labelledby="pills-profile-tab">
+<div class="container">
+
+
+ <br></div> </div>
+
+
+
+ <div class="tab-pane fade" id="pills-salat" role="tabpanel" aria-labelledby="pills-profile-tab">
+<div class="container">
+<div class="card " id="slt1" onclick="gofor(this.id)">
+
+          <div class="row no-gutters ">
+            <div class="col-3  scal3 ">
+                             <picture>
+       <source srcset="images/salat/tb.webp" type="image/webp" loading="lazy">
+  <source srcset="images/salat/tb.jp2" type="image/jp2" loading="lazy">                        
+  <img src="images/salat/tb.jpg" alt="" class="img-fluid lazy" alt="" loading="lazy" >
+</picture>
+       
+            </div>
+
+            <div class="col">
+                <div class="card-block px-3">
+                    <h5 class="card-title">تبولة | Tabbouleh</h5>
+           
+                  <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie "></i>479</p> <p class ="right" >SR</p>
+                     <p class="alignright">38.00</p>
+   </div> </div> </div></div>  </div>
+
+    <br>  
+
+<div class="card " id="slt2" onclick="gofor(this.id)">
+
+          <div class="row no-gutters ">
+            <div class="col-3  scal3 ">
+                             <picture>
+          <source srcset="images/salat/ft.webp" type="image/webp" loading="lazy">
+  <source srcset="images/salat/ft.jp2" type="image/jp2" loading="lazy">                          
+  <img src="images/salat/ft.jpg" alt="" class="img-fluid lazy" alt="" loading="lazy" >
+</picture>
+       
+            </div>
+
+            <div class="col">
+                <div class="card-block px-3">
+                    <h5 class="card-title">فتوش | Fattoush</h5>
+           
+                  <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie "></i>664</p> <p class ="right" >SR</p>
+                     <p class="alignright">39.00</p>
+   </div> </div> </div></div>  </div>
+
+    <br> 
+
+
+    <div class="card " id="slt3" onclick="gofor(this.id)">
+
+          <div class="row no-gutters ">
+            <div class="col-3  scal3 ">
+                             <picture>
+        <source srcset="images/salat/jr.webp" type="image/webp" loading="lazy">
+  <source srcset="images/salat/jr.jp2" type="image/jp2" loading="lazy">                         
+  <img src="images/salat/jr.jpg" alt="" class="img-fluid lazy" alt="" loading="lazy" >
+</picture>
+       
+            </div>
+
+            <div class="col">
+                <div class="card-block px-3">
+                    <h5 class="card-title">سلطة الروكا | Rocca Salad</h5>
+           
+                  <div id="textbox">
+                     <p class="alignleft"><i class="flaticon-calorie "></i>162</p> <p class ="right" >SR</p>
+                     <p class="alignright">41.00</p>
+   </div> </div> </div></div>  </div>
+
+    
+ <br></div> </div>
+
+
+ <div class="tab-pane fade" id="pills-fat" role="tabpanel" aria-labelledby="pills-profile-tab">
+<div class="container">
+
+
+ <br></div> </div>
+
+
+ <div class="tab-pane fade" id="pills-sham" role="tabpanel" aria-labelledby="pills-profile-tab">
+<div class="container">
+
+
+ <br></div> </div>
+
+  <div class="tab-pane fade" id="pills-mash" role="tabpanel" aria-labelledby="pills-profile-tab">
+<div class="container">
+
+
+ <br></div> </div>
+
+
+  <div class="tab-pane fade" id="pills-blue" role="tabpanel" aria-labelledby="pills-profile-tab">
+<div class="container">
+
+
+ <br></div> </div>
+
+
+
+
+<div class="tab-pane fade" id="pills-sea" role="tabpanel" aria-labelledby="pills-contact-tab">
+
+<div class="container">
+
+ </div> </div>
+
+
+
+ <div class="tab-pane fade" id="pills-mor" role="tabpanel" aria-labelledby="pills-contact-tab">
+
+<div class="container">
+
+ </div> </div>
+
+
+
+ <div class="tab-pane fade" id="pills-swt" role="tabpanel" aria-labelledby="pills-contact-tab">
+
+<div class="container">
+
+ </div> </div>
+
+
+<div class="tab-pane fade" id="pills-IceCoffee" role="tabpanel" aria-labelledby="pills-contact-tab">
+
+<div class="container">
+
+ </div> </div>
+
+<div class="tab-pane fade" id="pills-hotCoffee" role="tabpanel" aria-labelledby="pills-contact-tab">
+
+<div class="container">
+
+ </div> </div>
+
+
+
+<div class="tab-pane fade" id="pills-tea" role="tabpanel" aria-labelledby="pills-contact-tab">
+<div class="container">
+
+
+    </br></div> </div></div>
+
+
+
+<footer>
+  <a href="https://semicolon.site" style="text-decoration : none" ><p class="footer">مشغل بواسطة @سميكولن</p></a>
+</footer>
+  </br>
+  </br>
+ </div>
+</body>
+ </html>
